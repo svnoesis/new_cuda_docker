@@ -1,5 +1,4 @@
-ARG repository
-FROM ${repository}:9.1-devel-ubuntu16.04
+FROM nvidia/cuda:9.1-devel-ubuntu16.04
 LABEL maintainer "NVIDIA CORPORATION <cudatools@nvidia.com>"
 
 ENV CUDNN_VERSION 7.1.3.16
